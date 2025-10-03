@@ -1,0 +1,14 @@
+# =========================== backend/requirements.txt ===========================
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9
+fastapi==0.115.2
+gunicorn==21.*
+uvicorn[standard]==0.30.6
+httpx==0.27.2
+feedparser==6.0.11
+pydantic==2.9.2
+python-dotenv==1.0.1 
+slowapi>=0.1.9
+redis>=5.0.1
+prometheus-fastapi-instrumentator>=6.1.0
+aiokafka>=0.10.0  # only needed if you turn on Kafka

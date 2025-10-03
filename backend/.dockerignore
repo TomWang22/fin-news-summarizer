@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.mypy_cache/
+
+# Builds / venv
+.venv/
+build/
+dist/
+
+# Git & misc
+.git/
+.gitignore
+.env
+.env.*
+.DS_Store
+
+# Frontend (if not needed)
+frontend/
